@@ -69,6 +69,19 @@ button, input[image]{
 }
 
 
+#products .row .col-3 .card{ 
+    height: 95%!important;
+    padding-bottom: 5%;
+}
+
+#products .card img{
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+
 
 
 
