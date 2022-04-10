@@ -72,27 +72,3 @@ button, input[image]{
 
 
 
-@media (min-width: 1400px) {
-.xxl{
-    background-color: lightblue;
-}}
-@media (min-width: 1200px) and (max-width: 1399px){
-.xl{
-    background-color: lightcoral;
-}}
-@media (min-width: 992px) and (max-width: 1199px){
-.lg{
-    background-color: lightcyan;
-}}
-@media (min-width: 768px) and (max-width: 991px){
-.md{
-    background-color: lightgreen;
-}}
-@media (min-width: 577px) and (max-width: 767px){
-.sm{
-    background-color: lightpink;
-}}
-@media (min-width: 0px) and (max-width: 576px){
-.xs{
-    background-color: lightgoldenrodyellow;
-}}
