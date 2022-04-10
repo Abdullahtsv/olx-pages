@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header .row img{
+    height: 15px;
+    margin: 0px 5px;
+}
+
+#header .row a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+#find form select{
+    background-image: url("./img/search.png");
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 25px;
+    padding-left: 50px!important;
+}
+
+form, select, input, button{
+    height: 50px;
+    width: 100%;
+}
+button img{
+    width: 25px;
+    color: black;
+}
+button, input[image]{
+    border: none;
+    background-color: transparent;
+}
+
+.d-flex{
+    display: flex;
+}
+#mainsearch{
+    padding-left: 20px;
+}
+#list ul{
+    list-style: none;
+}
+#list ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+#list a{
+    text-decoration: none;
+    color: black;
+}
+#advertise img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+#advertise2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
+@media (min-width: 1400px) {
+.xxl{
+    background-color: lightblue;
+}}
+@media (min-width: 1200px) and (max-width: 1399px){
+.xl{
+    background-color: lightcoral;
+}}
+@media (min-width: 992px) and (max-width: 1199px){
+.lg{
+    background-color: lightcyan;
+}}
+@media (min-width: 768px) and (max-width: 991px){
+.md{
+    background-color: lightgreen;
+}}
+@media (min-width: 577px) and (max-width: 767px){
+.sm{
+    background-color: lightpink;
+}}
+@media (min-width: 0px) and (max-width: 576px){
+.xs{
+    background-color: lightgoldenrodyellow;
+}}
